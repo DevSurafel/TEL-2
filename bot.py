@@ -49,7 +49,7 @@ class InviteTrackerBot:
         if invite_count >= 200:
             message = (
                 f"Congratulations 👏👏🎉\n\n"
-                f"📊 Milestone Achieved: @DIGITAL_BIRRI\n"
+                f"📊 Milestone Achieved: \n"
                 f"-----------------------\n"
                 f"👤 User: {first_name}\n"
                 f"👥 Invites: Nama {invite_count} afeertaniittu! \n"
@@ -65,7 +65,7 @@ class InviteTrackerBot:
             buttons.append([InlineKeyboardButton("👉Baafachuuf", url="https://t.me/Digital_Birr_Bot?start=ar6222905852")])
         else:
             message = (
-                f"📊 Invite Progress: @DIGITAL_BIRRI\n"
+                f"📊 Invite Progress: \n"
                 f"-----------------------\n"
                 f"👤 User: {first_name}\n"
                 f"👥 Invites: Nama {invite_count} afeertaniittu \n"
@@ -189,7 +189,7 @@ class InviteTrackerBot:
         remaining = max(200 - invite_count, 0)
 
         message = (
-            f"📊 Invite Progress: @DIGITAL_BIRRI\n"
+            f"📊 Invite Progress: \n"
             f"-----------------------\n"
             f"👤 User: {first_name}\n"
             f"👥 Invites: Nama {invite_count} afeertaniittu \n"
@@ -237,7 +237,7 @@ class InviteTrackerBot:
         message = update.message.text.split()
         
         if len(message) != 2:
-            await update.message.reply_text("Baayyina nama afeertanii baruuf \n\n 👉/start@Invite_birr_bot \n")
+            await update.message.reply_text("Baayyina nama afeertanii baruuf \n\n 👉/start@ethio_tel_gift_bot \n")
             return
 
         inviter_id = message[1].upper()  # Convert to uppercase to match the IDs format
@@ -257,7 +257,7 @@ class InviteTrackerBot:
                 await update.message.reply_text(f"Milkaa'inaan galchitanii jirtu. Nama isin afeereef 50 ETB dabalameera! \n\n  👉/start")
                 return
         
-        await update.message.reply_text("Baayyina nama afeertanii baruuf \n\n 👉/start@Invite_birr_bot \n")
+        await update.message.reply_text("Baayyina nama afeertanii baruuf \n\n 👉/star@ethio_tel_gift_bot \n")
 
     async def run(self):
         try:
