@@ -49,7 +49,7 @@ class InviteTrackerBot:
         if invite_count >= 200:
             message = (
                 f"Congratulations 👏👏🎉\n\n"
-                f"📊 Milestone Achieved: \n"
+                f"📊 Milestone Achieved: <a href='https://t.me/+FXTJsUNS0eZhNjk0'> ETHIO TELECOM </a>"
                 f"-----------------------\n"
                 f"👤 User: {first_name}\n"
                 f"👥 Invites: Nama {invite_count} afeertaniittu! \n"
@@ -189,7 +189,7 @@ class InviteTrackerBot:
         remaining = max(200 - invite_count, 0)
 
         message = (
-            f"📊 Invite Progress: \n"
+            f"📊 Invite Progress: <a href='https://t.me/+FXTJsUNS0eZhNjk0'> ETHIO TELECOM </a>"
             f"-----------------------\n"
             f"👤 User: {first_name}\n"
             f"👥 Invites: Nama {invite_count} afeertaniittu \n"
