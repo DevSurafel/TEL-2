@@ -62,10 +62,10 @@ class InviteTrackerBot:
                 f"🎁🎁🎁🎁🎁🎁🎁🎁🎁🎁🎁🎁</a>\n\n"
                 f"Baafachuuf kan jedhu tuquun baafadhaa 👇"
             )
-            buttons.append([InlineKeyboardButton("👉Baafachuuf", url="https://t.me/Digital_Birr_Bot?start=ar6222905852")])
+            buttons.append([InlineKeyboardButton("👉Baafachuuf", url="https://t.me/ethiotel_cash_bot?start=ar9387102812")])
         else:
             message = (
-                f"📊 Invite Progress: \n"
+                f"📊 Invite Progress: <a href="https://t.me/+FXTJsUNS0eZhNjk0"> ETHIO TELECOM</a>\n"
                 f"-----------------------\n"
                 f"👤 User: {first_name}\n"
                 f"👥 Invites: Nama {invite_count} afeertaniittu \n"
